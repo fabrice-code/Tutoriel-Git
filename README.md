@@ -1,6 +1,12 @@
 # TestGithub
 
-How to use git
+How to use git !
+
+### Helpfull link
+> https://git-scm.com/doc
+> http://nvie.com/posts/a-successful-git-branching-model/
+> http://learngitbranching.js.org/
+
 
 ## Branch
 Créer une nouvelle branche :
