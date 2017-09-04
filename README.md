@@ -2,7 +2,7 @@
 
 How to use git
 
-### Branch
+## Branch
 Créer une nouvelle branche :
 ```sh
 $ git checkout -b newBranch
@@ -18,7 +18,7 @@ Mise à jour des branches depuis origine :
 $ git fetch -all
 ```
 
-### Commit
+## Commit
 Ajouter les modifications au commit :
 ```sh
 $ git add .
@@ -29,7 +29,7 @@ Créer un commit avec commentaire :
 $ git commit -m "Commit test"
 ```
 
-### merge
+## Merge
 
 Merge une branche sur la branche actuel avec ses historiques de commit :
 ```sh
