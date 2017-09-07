@@ -5,8 +5,11 @@ How to use git !
 ## Table des matières
 
 [Branch](#branch)
+
 [Commit](#commit)
+
 [Merge](#merge)
+
 [Helpfull link](#helpfull-link)
 
 
