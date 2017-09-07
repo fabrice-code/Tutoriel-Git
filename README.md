@@ -2,12 +2,12 @@
 
 How to use git !
 
-### Helpfull link
-> https://git-scm.com/doc
+## Table des matières
 
-> http://nvie.com/posts/a-successful-git-branching-model/
-
-> http://learngitbranching.js.org/
+[create an anchor](## Branch)
+[create an anchor](## Commit)
+[create an anchor](## Merge)
+[create an anchor](## Helpfull link)
 
 
 ## Branch
@@ -53,3 +53,10 @@ Mise à jours de la branche actuel par rapport à une autres :
 ```sh
 $ git rebase origin/branchSource
 ```
+
+## Helpfull link
+> https://git-scm.com/doc
+
+> http://nvie.com/posts/a-successful-git-branching-model/
+
+> http://learngitbranching.js.org/
