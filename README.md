@@ -4,10 +4,10 @@ How to use git !
 
 ## Table des matières
 
-[create an anchor](## Branch)
-[create an anchor](## Commit)
-[create an anchor](## Merge)
-[create an anchor](## Helpfull link)
+[Branch](#branch)
+[Commit](#commit)
+[Merge](#merge)
+[Helpfull link](#helpfull-link)
 
 
 ## Branch
