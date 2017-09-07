@@ -4,10 +4,10 @@ How to use git !
 
 ## Table des matières
 
-> [Branch](#branch)
-> [Commit](#commit)
-> [Merge](#merge)
-> [Helpfull link](#helpfull-link)
+1. [Branch](#branch)
+2. [Commit](#commit)
+3. [Merge](#merge)
+4. [Helpfull link](#helpfull-link)
 
 
 ## Branch
