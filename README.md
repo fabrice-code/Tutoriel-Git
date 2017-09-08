@@ -23,7 +23,7 @@ $ git checkout newBranch
 
 Mise à jour des branches depuis origine :
 ```sh
-$ git fetch -all
+$ git fetch --all
 ```
 
 ## Commit
