@@ -59,6 +59,16 @@ Mise à jours de la branche actuel par rapport à une autres :
 $ git rebase origin/branchSource
 ```
 
+## Other
+
+Annulé un commit sur une branch(ex: develop) et changer ce commit de branch :
+```sh
+$ git checkout fb-newbranch
+$ git push --set-upstream origin fb-newbranch
+$ git checkout develop
+$ git reset --hard HEAD~1
+```
+
 ## Helpfull link
 > https://git-scm.com/doc
 
