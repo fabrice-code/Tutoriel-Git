@@ -31,6 +31,13 @@ Mise à jour des branches depuis origine :
 $ git fetch --all
 ```
 
+Suppression d'une branche et push vers origin:
+```sh
+$ git branch -d fb-branch
+$ git push origin :fb-branch
+```
+
+
 ## Commit
 Ajouter les modifications au commit :
 ```sh
