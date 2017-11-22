@@ -21,6 +21,11 @@ Positionner le HEAD sur une branche :
 $ git checkout newBranch
 ```
 
+Voir toute les branche sur origine + local :
+```sh
+$ git branch -a
+```
+
 Mise à jour des branches depuis origine :
 ```sh
 $ git fetch --all
