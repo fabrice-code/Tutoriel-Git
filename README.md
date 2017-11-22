@@ -76,6 +76,11 @@ $ git checkout develop
 $ git reset --hard HEAD~1
 ```
 
+Commande chaîné :
+```sh
+$ git <command> && git <commande> && ...
+```
+
 ## Helpfull link
 > https://git-scm.com/doc
 
