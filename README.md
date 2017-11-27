@@ -68,7 +68,7 @@ $ git rebase origin/branchSource
 
 ## Other
 
-Rajouté un remote et push une branch :
+Rajouter un remote et push une branch :
 ```sh
 $ git remote add <remote-alias> <url>
 $ git push <remote-alias> <branch>
