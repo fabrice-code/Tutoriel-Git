@@ -68,6 +68,12 @@ $ git rebase origin/branchSource
 
 ## Other
 
+Rajouté un remote et push une branch :
+```sh
+$ git remote add <remote-alias> <url>
+$ git push <remote-alias> <branch>
+```
+
 Annulé un commit sur une branch(ex: develop) et changer ce commit de branch :
 ```sh
 $ git checkout fb-newbranch
