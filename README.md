@@ -13,22 +13,22 @@ How to use git !
 ## Branch
 Créer une nouvelle branche :
 ```sh
-$ git checkout -b newBranch
+$ git branch <branche_name>
 ```
 
 Positionner le HEAD sur une branche :
 ```sh
-$ git checkout newBranch
+$ git checkout <branche_name>
 ```
 
-Voir toute les branche sur origine + local :
+Créer une nouvelle branche et positionner le HEAD sur cette branche
+```sh
+$ git checkout -b <branche_name>
+```
+
+Lister toute les branche remote + local
 ```sh
 $ git branch -a
-```
-
-Mise à jour des branches depuis origine :
-```sh
-$ git fetch --all
 ```
 
 Suppression d'une branche et push vers origin:
@@ -37,26 +37,25 @@ $ git branch -d fb-branch
 $ git push origin :fb-branch
 ```
 
-
 ## Commit
-Ajouter les modifications au commit :
+Ajouter les modifications dans le staging area
 ```sh
 $ git add .
 ```
 
-Créer un commit avec commentaire :
+Commit la staging area avec un commentaire
 ```sh
 $ git commit -m "Commit test"
 ```
 
 ## Merge
 
-Merge une branche sur la branche actuel avec ses historiques de commit :
+Déplace le HEAD sur une suite de commit d'une branche source en partant de la branche actuel
 ```sh
-$ git merge  branchToMerge
+$ git merge [--ff] <branche_source>
 ```
 
-Merge une branche sur la branche actuel sans ses historiques de commit :
+Effectue un commit de fusion entre deux branche
 ```sh
 $ git merge --no-ff branchToMerge
 ```
@@ -93,3 +92,5 @@ $ git <command> && git <commande> && ...
 > http://nvie.com/posts/a-successful-git-branching-model/
 
 > http://learngitbranching.js.org/
+
+> https://www.miximum.fr/blog/enfin-comprendre-git/
